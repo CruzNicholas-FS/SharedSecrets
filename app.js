@@ -1,3 +1,4 @@
+require("dotenv").config("./.env");
 const http = require("http");
 const host=process.env.HOST;
 const port=process.env.PORT;
